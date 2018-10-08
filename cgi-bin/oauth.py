@@ -59,7 +59,8 @@ if config_error:
     print ("Error reading configuration file")
 else:
     if access_token is not None:
-        print ("access_token: {access_token}<br>\n".format(access_token=access_token))
+        print ("Access token received")
+        #        print ("access_token: {access_token}<br>\n".format(access_token=access_token))
     else:
         print ("No access token found!<br>\n")
         print ("This may be useful:<br>\n")
